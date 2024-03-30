@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.taotk{
+    font-size: 1.5em;
+    font-weight:lighter;
+}
+#bt{
+    float: right;
+    margin-right: 35%;
+    background-color: cornflowerblue;
+    color: white;
+    border-style: hidden;
+    border-radius: 7px;
+    width: 7%;
+    height: 5%;
+    font-size: 1em;
+}
+#ho, #ten{
+    border-width: 1px;
+    border-radius: 7px;
+    height: 7%;
+    width: 30%;
+    font-size: 1em;
+}

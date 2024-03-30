@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.dau{
+    background-color: rgb(0,60,113);
+    color: white;
+}
+.chu1{
+    padding-top: 1%;
+    padding-bottom: 2%;
+    text-align: center;
+    background-color: rgb(0,60,113);
+}
+.menu{
+    margin-top: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: left;
+    background-color: rgb(1,76,142) ;
+}
+.than{
+    text-align: center;
+    color:black;
+    display:grid;
+    grid-template-columns: 30% 70%;
+}
+.trai{
+    background-color: rgb(241,241,241);
+}
+.phai{
+    margin-left: 2%;
+}
+img{
+    text-align: center;
+}
+#hinhvc, #hinhhd{
+    text-align: center;
+}
+.chan{
+    height: 5%;
+    background-color: rgb(13,41,58);
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+}
+h2{
+    text-align: left;
+}
+p{
+    text-align: left;
+}
+.vitri{
+    text-align: center;
+}
+.congvien{
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+@media screen and (max-width: 800px){
+    .menu{
+        display:flex;
+        flex-direction:column;
+        margin-top: 0%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        text-align: center;
+        background-color: rgb(1,76,142) ;
+    }
+    .than{
+        text-align: center;
+        color:black;
+        display:grid;
+        grid-template-columns: auto;
+    }
+}
