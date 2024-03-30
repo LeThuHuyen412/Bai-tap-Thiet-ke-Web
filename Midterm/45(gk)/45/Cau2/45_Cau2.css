@@ -1,0 +1,26 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:beige;
+}
+.cau2{
+    background-color: #fffe;
+    
+}
+h2, .fas{
+    color:#538fff;
+}
+#submit{
+    background-color: #538fff;
+    color:white;
+    width: 10%;
+}
+.p{
+    color:darkgrey
+}
+input, textarea{
+    background-color:lightgrey;
+}
+.cot{
+    width: 70%;
+    text-align: left;
+}
